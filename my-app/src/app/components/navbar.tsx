@@ -12,7 +12,7 @@ const navElements = [
     {
         key: '1',
         title: 'Home',
-        path: './home',
+        path: '../home',
         icon: <HomeLogo/>
     },
     {

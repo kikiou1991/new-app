@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import NavbarTop from './components/navbar-top'
 import Navigation from './components/navbar'
 import HomePage from './pages/home'
@@ -6,7 +5,7 @@ import HomePage from './pages/home'
 
 
 
-export default function Page() {
+export default function Home() {
   return (
     <>
     <div className='flex flex-col w-full'>
