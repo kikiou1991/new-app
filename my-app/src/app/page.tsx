@@ -1,8 +1,7 @@
-import Image from 'next/image'
-
-import Home from './home/page'
+import Image from 'next/image';
 import NavbarTop from './components/navbar-top'
 import Navigation from './components/navbar'
+import HomePage from './pages/home'
 
 
 
@@ -21,7 +20,7 @@ export default function Page() {
             
             </div>
             <div className='w-5/6'>
-                <Home/>
+                <HomePage/>
                 
             </div>
 

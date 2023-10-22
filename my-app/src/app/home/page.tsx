@@ -4,16 +4,9 @@ import NavbarTop from '../components/navbar-top'
 import Navigation from '../components/navbar'
 import HomePage from '../pages/home'
 
-
-
-
-
-
-
-
 export default function Home() {
   return (
-    <>
+    
     <div className='flex flex-col w-full'>
 
         <div className='w-full'>
@@ -33,6 +26,6 @@ export default function Home() {
         </div>
     
     </div>
-</>
+
   )
 }
