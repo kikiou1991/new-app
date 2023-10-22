@@ -2,7 +2,8 @@ import { Navbar } from '@nextui-org/react'
 import React from 'react'
 import NavbarTop from '../components/navbar-top'
 import Navigation from '../components/navbar'
-import HomePage from './content'
+import HomePage from '../pages/home'
+
 
 
 
