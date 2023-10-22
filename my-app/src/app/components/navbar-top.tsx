@@ -12,7 +12,7 @@ const NavbarTop = () => {
                 <p>Current Project</p>
               </NavbarBrand>
               <Input
-                className="bg-white h-10 py-1.5 px-3 pr-5 mt-2 mb-2 w-5/6 rounded-full text-lg focus:outline-none"
+                className="bg-slate-300 h-10 py-1.5 px-3 pr-5 mt-2 mb-2 w-1/6 rounded-full text-lg focus:outline-none"
                 placeholder="Type to search..."
                 size="sm"
                 startContent={''}

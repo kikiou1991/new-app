@@ -1,13 +1,14 @@
-import Image from 'next/image'
-
-import Home from './home/page'
-import NavbarTop from './components/navbar-top'
-import Navigation from './components/navbar'
-
-
+import { Navbar } from '@nextui-org/react'
+import React from 'react'
+import NavbarTop from '../components/navbar-top'
+import Navigation from '../components/navbar'
+import Members from '../pages/members'
 
 
-export default function Page() {
+
+
+
+export default function Home() {
   return (
     <>
     <div className='flex flex-col w-full'>
@@ -21,7 +22,7 @@ export default function Page() {
             
             </div>
             <div className='w-5/6'>
-                <Home/>
+                <Members/>
                 
             </div>
 

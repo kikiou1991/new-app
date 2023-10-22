@@ -12,25 +12,25 @@ const navElements = [
     {
         key: '1',
         title: 'Home',
-        path: '#home',
+        path: './home',
         icon: <HomeLogo/>
     },
     {
         key: '2',
         title: 'Messages',
-        path: '#messages',
+        path: './messages',
         icon: <MessagesLogo/>
     },
     {
         key: '3',
         title: 'Settings',
-        path: '#settings',
+        path: './settings',
         icon: <SettingsLogo/>
     },
     {
         key: '4',
         title: 'Members',
-        path: '#members',
+        path: './members',
         icon: <MembersLogo/>
     },
 ]

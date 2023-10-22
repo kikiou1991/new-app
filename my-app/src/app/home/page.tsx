@@ -1,13 +1,18 @@
 import { Navbar } from '@nextui-org/react'
 import React from 'react'
-import Navigation from './navbar'
-import Searchbar from './searchbar'
-import NavbarTop from './navbar-top'
-import UserInterface from './main-interface'
+import NavbarTop from '../components/navbar-top'
+import Navigation from '../components/navbar'
+import HomePage from './content'
 
-export const Main = () => {
+
+
+
+
+
+
+export default function Home() {
   return (
-<>
+    <>
     <div className='flex flex-col w-full'>
 
         <div className='w-full'>
@@ -19,7 +24,8 @@ export const Main = () => {
             
             </div>
             <div className='w-5/6'>
-                <UserInterface/>
+                <HomePage/>
+                
             </div>
 
 
@@ -29,4 +35,3 @@ export const Main = () => {
 </>
   )
 }
-
